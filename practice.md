@@ -7,3 +7,4 @@ title: Практика по языку Си
 
 * [Переменные и операторы]({{ "/practice/vars.html" | relative_url }})
 * [Типы данных]({{ "/practice/datatypes.html" | relative_url }})
+* [ASCII]({{ "/practice/ascii.html" | relative_url }})
