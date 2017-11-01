@@ -4,4 +4,4 @@ layout: default
 
 # Сертификат
 
-({{ "/assets/certificate.png" | relative_url }} "Сертификат")
+![Сертификат]({{ "/assets/certificate.png" | absolute_url }} "Сертификат")
