@@ -73,7 +73,7 @@ i < 50
 
 Также можно использовать условия, позволяющие выбрать одну из нескольких дорог. В Scratch'e мы показывали что-то похожее на это:
 
-![Условия в scratch]({{ "/notes/1/conditions_scratch.jpg" | absolute_url }} "Условия в scratch")
+![]({{ "/notes/1/conditions_scratch.jpg" | absolute_url }} "Условия в scratch" =200x)
 
 Всё это можно намного легче выразить в Cи:
 
