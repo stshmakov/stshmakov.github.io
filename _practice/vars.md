@@ -14,7 +14,9 @@ Ask a user to input the month, day and year using `get_int()`, and print it out 
 
 ### Distribution Code
 None
-___
+
+***
+
 ## Sum and Product
 
 ### Prerequisites
