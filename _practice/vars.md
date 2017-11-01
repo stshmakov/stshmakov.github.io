@@ -1,29 +1,49 @@
 ---
 layout: default
+title: Переменные и операторы
 ---
 
-# Переменные
+# Переменные и операторы.
 
-## Sum and Product #1
+## Часы
 
-### Prerequisites
-None
-
-### Problem
-Ask a user to input the month, day and year using `get_int()`, and print it out in the format `mm/dd/yy` (e.g. 11/23/17). Month and day can also be single digits, so don't worry about formatting.
+### Задача
+Попросите пользователя ввести день, месяц и год с помощью `get_int()` и выведите это на экран в формате `dd/mm/yy` (например, 23/11/17). Месяц и день также могут быть одинарными цифрами, поэтому не беспокойтесь о форматировании.
 
 ### Distribution Code
-None
+Нет
 
 ***
 
-## Sum and Product
+## Сумма и произведение
 
-### Prerequisites
-None
-
-### Problem
-Declare two integer variables, and print their sum and their product on two separate lines. Remember to use a placeholder, `%d`, in order to print
+### Задача
+Объявите две целые переменные и напечатайте их сумму и произведение на две раздельные строки. Не забудьте использовать заполнитель, `%i`, чтобы распечатать.
 
 ### Distribution Code
-None
+Нет
+
+***
+
+## Сумма трех
+
+### Задача
+Используя только одну переменную, запросите 3 переменные у пользователя в качестве входных данных и верните их сумму.
+
+### Distribution Code
+Нет
+
+## Преобразование температуры
+
+### Задача
+Напишите программу, которая предложит пользователю ввести температуру в Фаренгейтах, преобразует температуру в Цельсии и распечатает результат с одним десятичным знаком. Подумайте, какие типы данных (`int`, `float` и т. д.) Вы хотите использовать для этой задачи.
+
+Пример вывода:
+```c
+./temperature
+Temperature in F: 100
+Temperature in C: 37.8
+```
+
+### Distribution Code
+Нет
