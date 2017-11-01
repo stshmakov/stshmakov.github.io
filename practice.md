@@ -1,7 +1,8 @@
 ---
 layout: default
+title: Практика по языку Си
 ---
 
-# Практика
+# Практика по языку Си
 
-[Переменные]({{ "/practice/vars.html" | relative_url }})
+[Переменные и операторы]({{ "/practice/vars.html" | relative_url }})
