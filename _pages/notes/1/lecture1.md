@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Си. Лекция 1.
+description: Linux.	C.	Компиляция.	Библиотеки.	Типы.	Стандартный	 вывод.
 ---
 # Лекция 1
 ## Scratch vs. C
@@ -73,7 +75,7 @@ i < 50
 
 Также можно использовать условия, позволяющие выбрать одну из нескольких дорог. В Scratch'e мы показывали что-то похожее на это:
 
-![]({{ "/notes/1/conditions_scratch.jpg" | absolute_url }} "Условия в scratch" =200x)
+![Условия в scratch]({{ "/notes/1/conditions_scratch.jpg" | absolute_url }} "Условия в scratch" =200x)
 
 Всё это можно намного легче выразить в Cи:
 
