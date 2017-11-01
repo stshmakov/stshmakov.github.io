@@ -38,7 +38,7 @@ bool verifier(int a, int b, int c)
     		return true;
 	return false;
 }
-// TODO: Добавить реализацию функции char_to_int function
+// TODO: Добавить реализацию функции char_to_int
 ```
 
 ***
