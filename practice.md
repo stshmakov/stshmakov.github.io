@@ -18,3 +18,4 @@ description: Практические задачи по языку Си.
 #### [Аргументы]({{ "/practice/args.html" | relative_url }})
 #### [Массивы]({{ "/practice/arrays.html" | relative_url }})
 #### [Память]({{ "/practice/memory.html" | relative_url }})
+#### [Указатели]({{ "/practice/pointers.html" | relative_url }})
