@@ -1,7 +1,8 @@
 ---
 layout: default
+title: Сертификат edX
 ---
 
-# Сертификат
+# Сертификат edX
 
 ![Сертификат]({{ "/assets/certificate.png" | absolute_url }} "Сертификат")
