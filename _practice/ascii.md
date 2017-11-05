@@ -130,3 +130,6 @@ You printed an uppercase letter!
 Нет
 
 [Решение]({{ "/practice/solutions/upperlower.html" | relative_url }})
+
+## Таблица ASCII
+![ASCII Table]({{ "/assets/asciitable2.png" | absolute_url }})
