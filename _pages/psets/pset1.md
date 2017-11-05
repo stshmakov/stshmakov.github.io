@@ -55,6 +55,6 @@ history
 # Требования
 
 * Реализовать [Hello]({{ "/problems/hello/" | relative_url }})
-* Реализовать Water
-* Реализовать Mario
-* Реализовать Greedy
+* Реализовать [Water]({{ "/problems/water/" | relative_url }})
+* Реализовать [Mario]({{ "/problems/mario/" | relative_url }})
+* Реализовать [Greedy]({{ "/problems/greedy/" | relative_url }})
