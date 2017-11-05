@@ -110,6 +110,8 @@ int main(void)
 
 ```
 
+[Решение]({{ "/practice/solutions/toupper.html" | relative_url }})
+
 ***
 
 ## Строчная или заглавная
