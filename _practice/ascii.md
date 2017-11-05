@@ -68,6 +68,7 @@ int main(void)
     printf("\n");
 }
 ```
+[Решение]({{ "/practice/solutions/ascii.html" | relative_url }})
 
 ***
 
