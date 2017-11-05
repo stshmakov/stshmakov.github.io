@@ -68,7 +68,7 @@ int main(void)
     printf("\n");
 }
 ```
-[Решение]({{ "/practice/solutions/ascii.html" | relative_url }})
+[Решение]({{ "/practice/solutions/simplecipher.html" | relative_url }})
 
 ***
 
