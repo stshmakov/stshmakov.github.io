@@ -58,8 +58,9 @@ Retry: 0.41
 ```
 
 ## Проверка
-
-`check50 cs50/2017/x/greedy`
+```
+check50 cs50/2017/x/greedy
+```
 
 Вас потребуют ввести логин (**GitHub username**) и пароль (**GitHub password**) от вашей учетной записи на Github'е, которую вы можете завести, пройдя по данной ссылке [https://github.com/join](https://github.com/join).
 
