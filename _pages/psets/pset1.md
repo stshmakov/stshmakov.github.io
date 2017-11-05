@@ -54,7 +54,7 @@ history
 
 # Требования
 
-* Реализовать [Hello]({{ "/practice/problems/hello/" | relative_url }})
+* Реализовать [Hello]({{ "/problems/hello/" | relative_url }})
 * Реализовать Water
 * Реализовать Mario
 * Реализовать Greedy
