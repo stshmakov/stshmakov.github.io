@@ -1,3 +1,7 @@
+---
+layout: default
+title: Набор проблем 1: C. Hello (Привет).
+---
 # Hello (Привет)
 
 ## Коротко
