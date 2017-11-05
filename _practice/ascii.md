@@ -126,3 +126,5 @@ You printed an uppercase letter!
 
 ### Distribution Code
 Нет
+
+[Решение]({{ "/practice/solutions/upperlower.html" | relative_url }})
