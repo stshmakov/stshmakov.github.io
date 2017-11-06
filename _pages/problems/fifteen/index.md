@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 3: Game of Fifteen. Game of Fifteen (Пятнашки).
+title: Набор проблем 3. Game of Fifteen. Game of Fifteen (Пятнашки).
 ---
 # Game of Fifteen (Пятнашки)
 

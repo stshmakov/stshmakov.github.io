@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 3: Game of Fifteen. Find (Найти).
+title: Набор проблем 3. Game of Fifteen. Find (Найти).
 ---
 # Find (Найти)
 

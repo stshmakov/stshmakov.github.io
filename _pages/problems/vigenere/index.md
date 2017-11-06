@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 2: Crypto. Vigenère (Виженèр).
+title: Набор проблем 2. Crypto. Vigenère (Виженèр).
 ---
 # Vigenère (Виженèр)
 

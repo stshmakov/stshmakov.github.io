@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 2: Crypto. Initials (Инициалы).
+title: Набор проблем 2. Crypto. Initials (Инициалы).
 ---
 
 # Initials (Инициалы)

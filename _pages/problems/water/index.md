@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 1: C. Water (Вода).
+title: Набор проблем 1. C. Water (Вода).
 ---
 # Water (Вода)
 

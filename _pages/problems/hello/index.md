@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 1: C. Hello (Привет).
+title: Набор проблем 1. C. Hello (Привет).
 ---
 # Hello (Привет)
 

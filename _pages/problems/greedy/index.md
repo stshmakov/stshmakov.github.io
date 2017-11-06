@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 1: C. Greedy (Жадный).
+title: Набор проблем 1. C. Greedy (Жадный).
 ---
 
 # Greedy (Жадный)

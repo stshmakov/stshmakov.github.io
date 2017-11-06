@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 1: C. Mario (Марио).
+title: Набор проблем 1. C. Mario (Марио).
 ---
 # Mario (Марио)
 

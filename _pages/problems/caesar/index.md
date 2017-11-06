@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 2: Crypto. Caesar (Цезарь).
+title: Набор проблем 2. Crypto. Caesar (Цезарь).
 ---
 
 # Caesar (Цезарь)
