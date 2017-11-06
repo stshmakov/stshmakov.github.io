@@ -1,3 +1,7 @@
+---
+layout: default
+title: Набор проблем 2: Crypto.
+---
 # Набор Проблем 2: Crypto
 
 ## Коротко
