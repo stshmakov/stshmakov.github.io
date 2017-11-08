@@ -366,7 +366,7 @@ Connection: keep-alive
 ```html
 <!DOCTYPE html>
 
-<html
+<html>
     <head>
         <title>css-0</title>
     </head>
