@@ -46,6 +46,7 @@ title: Программа курса CS50
 
 ## #6 HTTP
 #### TCP/IP. HTTP.
+### [Конспект лекции]({{ "/notes/6/lecture6.html" | relative_url }})
 
 ***
 

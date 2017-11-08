@@ -30,9 +30,6 @@ collections:
   pages:
     output: true
     permalink: /:path
-  practice:
-      output: true
-      permalink: /:collection/:path
 defaults:
   -
     scope:
