@@ -176,23 +176,14 @@ $ curl -I http://www.harvard.edu/
 Запустим команду:
 ```
 $ curl -I http://reference.cs50.net/
-
 HTTP/1.1 301 Moved Permanently
-
 Cache-control: no-cache="set-cookie"
-
 Content-Length: 178
-
 Content-Type: text/html
-
 Date: Mon, 03 Oct 2016 17:17:39 GMT
-
 Location: https://reference.cs50.net/
-
 Server: nginx/1.8.1
-
 Set-Cookie: AWSELB=7D03E3C11C9564D4EBA91026CCAAA8EEDCD5DC34657AEDEBBAB0856E24F9ACB5BE65C5B4443B7EF06C9BBEAC5F36BF556A51333C0377A6BC471E810D021D4033A06AC36B27;PATH=/
-
 Connection: keep-alive
 ```
 Здесь есть заголовок `Location:` (позиция или место), перенаправляющий нас на новую ссылку (URL).
@@ -214,21 +205,14 @@ Connection: keep-alive
 Пример простейшей веб-страницы:
 ```html
 <!DOCTYPE html>
-
 <html>
-
     <head>
-
         <title>hello, world</title>
-
     </head>
 
     <body>
-
         hello, world
-
     </body>
-
 </html>
 ```
 В первой строке мы объявляем, что эта страница написана на языке HTML, а точнее на HTML 5 версии.
@@ -254,19 +238,13 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <title>image</title>
-
     </head>
 
     <body>
-
         <img alt="Grumpy Cat" src="cat.jpg"/>
-
     </body>
-
 </html>
 ```
 Нам нужно загрузить `cat.jpg` в нашу рабочую среду, и так как никакого другого контента не бывает внутри тега `img`, мы можем просто закрыть начальный тег этим `/>`.
@@ -278,19 +256,13 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <title>link</title>
-
     </head>
 
     <body>
-
         Search for <a href="https://www.google.com/search?q=cats">cats</a>.
-
     </body>
-
 </html>
 ```
 Тег `a` (сокращенно от Anchor) с атрибутом `href` или hyper-reference (гиперссылка). Внутрь помещается URL, куда будет направлять ссылка и текст, который мы хотим отображать в качестве ссылки. Заметьте, мы можем напрямую помещать один элемент внутрь другого.
@@ -300,19 +272,13 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <title>link</title>
-
     </head>
 
     <body>
-
         Search for <a href="https://www.google.com/search?q=cats"><img alt="Grumpy Cat" src="cat.jpg"/></a>.
-
     </body>
-
 </html>
 ```
 Поведение тегов может быть изменено такими атрибутами как `href` или `src`. И мы можем воспользоваться любым онлайн источником документации HTML, где будут описаны названия тегов и их атрибуты.
@@ -322,37 +288,25 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
         <title>paragraphs</title>
 
     </head>
 
     <body>
-
         <p>
-
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tincidunt augue. Duis imperdiet, justo ac iaculis rhoncus, erat elit dignissim mi, eu interdum velit sapien nec risus. Praesent ullamcorper nibh at volutpat aliquam. Nam sed aliquam risus. Nulla rutrum nunc augue, in varius lacus commodo in. Ut tincidunt nisi a convallis consequat. Fusce sed pulvinar nulla.
-
         </p>
 
         <p>
-
             Ut tempus rutrum arcu eget condimentum. Morbi elit ipsum, gravida faucibus sodales quis, varius at mi. Suspendisse id viverra lectus. Etiam dignissim interdum felis quis faucibus. Integer et vestibulum eros, non malesuada felis. Pellentesque porttitor eleifend laoreet. Duis sit amet pellentesque nisi. Aenean ligula mauris, volutpat sed luctus in, consectetur id turpis. Phasellus mattis dui ac metus blandit volutpat. Donec lorem arcu, sollicitudin in risus a, imperdiet condimentum augue. Ut at facilisis mauris. Curabitur sagittis augue in dictum gravida. Integer sed sem sed justo tempus ultrices eu non magna. Phasellus semper eros erat, a posuere nisi auctor et. Praesent dignissim orci aliquam laoreet scelerisque.
-
         </p>
 
         <p>
-
             Mauris eget erat arcu. Maecenas ac ante vel ipsum bibendum varius. Nunc tristique nulla eget tincidunt molestie. Morbi sed mauris eu lectus vehicula iaculis ac id lacus. Etiam sit amet magna massa. In pulvinar sapien ac mi ultrices, quis consequat nisl hendrerit. Aliquam pharetra nec sem non vehicula. In et risus leo. Ut tristique ornare nisl et lacinia.
-
         </p>
-
     </body>
-
 </html>
 ```
 У нас несколько параграфов с латинским текстом, каждый из которых выделен отдельными `<p>` тегами.
@@ -364,29 +318,18 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <title>headings</title>
-
     </head>
 
     <body>
-
         <h1>One</h1>
-
         <h2>Two</h2>
-
         <h3>Three</h3>
-
         <h4>Four</h4>
-
         <h5>Five</h5>
-
         <h6>Six</h6>
-
     </body>
-
 </html>
 ```
 ![image alt text](image_5.jpg)
@@ -396,27 +339,17 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <title>list</title>
-
     </head>
 
     <body>
-
         <ul>
-
             <li>foo</li>
-
             <li>bar</li>
-
             <li>baz</li>
-
         </ul>
-
     </body>
-
 </html>
 ```
 Есть элемент `ul` (unordered list/несортированный список), внутри которого находятся элементы `li` (list item/элементы списка).
@@ -433,40 +366,26 @@ Connection: keep-alive
 ```html
 <!DOCTYPE html>
 
-<html>
-
+<html
     <head>
-
         <title>css-0</title>
-
     </head>
 
     <body>
-
         <div style="text-align: center;">
-
             <div style="font-size: 36px; font-weight: bold;">
-
                 John Harvard
-
             </div>
 
             <div style="font-size: 24px;">
-
                 Welcome to my home page!
-
             </div>
 
             <div style="font-size: 12px;">
-
                 Copyright &#169; John Harvard
-
             </div>
-
         </div>
-
     </body>
-
 </html>
 ```
 Заметьте, у элементов теперь есть атрибут `style`, внутри которых прописано что-то вроде `font-size: 12px;` вместе с другими строками.
@@ -480,73 +399,46 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <style>
-
             body
-
             {
-
                 text-align: center;
-
             }
 
             #top
-
             {
-
                 font-size: 36px;
-
                 font-weight: bold;
-
             }
 
             #middle
-
             {
-
                 font-size: 24px;
-
             }
 
             #bottom
-
             {
-
                 font-size: 12px;
-
             }
-
         </style>
 
         <title>css-1</title>
-
     </head>
 
     <body>
-
         <div id="top">
-
             John Harvard
-
         </div>
 
         <div id="middle">
-
             Welcome to my home page!
-
         </div>
 
         <div id="bottom">
-
             Copyright &#169; John Harvard
-
         </div>
-
     </body>
-
 </html>
 ```
 Теперь мы дали каждому `div`'у в нашем `body` атрибут `id`, который позволяет определить их в общей структуре документа. В нашем теге `head` мы задаем стили CSS для каждого из них (элементов с атрибутом "id"), используя тег `style`.
@@ -560,37 +452,24 @@ Connection: keep-alive
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <link href="css2.css" rel="stylesheet"/>
-
         <title>css-2</title>
-
     </head>
 
     <body>
-
         <div id="top">
-
             John Harvard
-
         </div>
 
         <div id="middle">
-
             Welcome to my home page!
-
         </div>
 
         <div id="bottom">
-
             Copyright &#169; John Harvard
-
         </div>
-
     </body>
-
 </html>
 ```
 Здесь, в теге `head`, мы добавили тег `link`, которые схож с `include` языка программирования Си. Теперь соответствующий файл `css2.css` будет применен к нашей странице:
@@ -641,29 +520,18 @@ email=username@example.com&pass=12345
 <!DOCTYPE html>
 
 <html>
-
     <head>
-
         <title>CS50 Поиск</title>
-
     </head>
 
     <body>
-
         <h1>CS50 Поиск</h1>
-
         <form action="https://www.google.com/search" method="get">
-
             <input name="q" type="text"/>
-
             <br/>
-
             <input type="submit" value="CS50 Поиск"/>
-
         </form>
-
     </body>
-
 </html>
 ```
 У нас есть заголовок `h1` и еще один элемент `form` (формы).
@@ -675,4 +543,3 @@ email=username@example.com&pass=12345
 Теперь, если мы откроем эту страницу и введем `cats` (кошки), наш браузер поймет, что ему нужно создать ссылку (URL), которая будет выглядеть так [https://www.google.com/search?q=cats](https://www.google.com/search?q=cats), далее переводя нас туда из нашей формы.
 
 Но мы не создавали бэк-энда (back-end), т.е. веб-сервера, который был бы способен считывать принимаемые URL'ы (ссылки) и производить подходящие ответы, отправляя их обратно клиенту. Скоро мы познакомимся с еще одним языком под названием Python (Питон), который поможет нам написать наш собственный веб-сервер.
-
