@@ -797,7 +797,7 @@ You are registered!  (Well, not really.)
 Мы видим в данном файле одни и те же магические слова `{% raw %}{% block title %}{% endraw %}` и `{% raw %}{% block body %}{% endraw %}`, которые работают не благодаря HTML или Python, а благодаря фреймворку Flask (функция `render_template`), строящий веб-страницы с помощью данных шаблонов.
 
 Форма в `index.html`:
-```
+```html
 {% raw %}
 {% extends "layout.html" %}
 
