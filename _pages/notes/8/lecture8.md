@@ -744,8 +744,7 @@ def register():
 На самом деле, даже если мы полностью заполним форму, никакой регистрации не произойдет, так как у этого приложения не существует базы данных или места, где хранились бы введенные пользователем данные.
 
 Но, как бы там не было, давайте взглянем на `failure.html` (неудача):
-```
-{% raw %}
+```html {% raw %}
 {% extends "layout.html" %}
 
 {% block title %}
@@ -754,15 +753,12 @@ Registration Failed
 
 {% block body %}
 You must provide your name, comfort, and dorm!
-{% endblock %}
-
-{% endraw %}
+{% endblock %}{% endraw %}
 ```
 Здесь не так много логики, но, похоже, что мы дополняем файл под названием `layout.html`, в котором, скорее всего, находится всего лишь обычная структура страницы. Затем, с помощью `{% raw %}{% block title %}{% endraw %}` и `{% raw %}{% block body %}{% endraw %}`, мы указываем, что должно быть внутри `title` и внутри `body`.
 
 У `success.html` есть что-то подобное:
-```
-{% raw %}
+```html {% raw %}
 {% extends "layout.html" %}
 
 {% block title %}
@@ -772,13 +768,11 @@ Registration Successful
 {% block body %}
 You are registered!  (Well, not really.)
 {% endblock %}
-{% endhighlight %}
-{% endraw %}
+{% endhighlight %}{% endraw %}
 ```
 И у `layout.html`:
 
-```
-{% raw %}
+```html {% raw %}
 <!DOCTYPE html>
 
 <html>
@@ -791,8 +785,7 @@ You are registered!  (Well, not really.)
         {% block body %}
         {% endblock %}
     </body>
-</html>
-{% endraw %}
+</html>{% endraw %}
 ```
 Мы видим в данном файле одни и те же магические слова `{% raw %}{% block title %}{% endraw %}` и `{% raw %}{% block body %}{% endraw %}`, которые работают не благодаря HTML или Python, а благодаря фреймворку Flask (функция `render_template`), строящий веб-страницы с помощью данных шаблонов.
 
