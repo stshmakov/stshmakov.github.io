@@ -745,6 +745,7 @@ def register():
 
 Но, как бы там не было, давайте взглянем на `failure.html` (неудача):
 ```
+{% raw %}
 {% extends "layout.html" %}
 
 {% block title %}
@@ -754,11 +755,14 @@ Registration Failed
 {% block body %}
 You must provide your name, comfort, and dorm!
 {% endblock %}
+
+{% endraw %}
 ```
-Здесь не так много логики, но, похоже, что мы дополняем файл под названием `layout.html`, в котором, скорее всего, находится всего лишь обычная структура страницы. Затем, с помощью `{% block title %}` и `{% block body %}`, мы указываем, что должно быть внутри `title` и внутри `body`.
+Здесь не так много логики, но, похоже, что мы дополняем файл под названием `layout.html`, в котором, скорее всего, находится всего лишь обычная структура страницы. Затем, с помощью `{% raw %}{% block title %}{% endraw %}` и `{% raw %}{% block body %}{% endraw %}`, мы указываем, что должно быть внутри `title` и внутри `body`.
 
 У `success.html` есть что-то подобное:
 ```
+{% raw %}
 {% extends "layout.html" %}
 
 {% block title %}
@@ -768,9 +772,13 @@ Registration Successful
 {% block body %}
 You are registered!  (Well, not really.)
 {% endblock %}
+{% endhighlight %}
+{% endraw %}
 ```
 И у `layout.html`:
+
 ```
+{% raw %}
 <!DOCTYPE html>
 
 <html>
@@ -784,11 +792,13 @@ You are registered!  (Well, not really.)
         {% endblock %}
     </body>
 </html>
+{% endraw %}
 ```
-Мы видим в данном файле одни и те же магические слова `{% block title %}` и `{% block body %}`, которые работают не благодаря HTML или Python, а благодаря фреймворку Flask (функция `render_template`), строящий веб-страницы с помощью данных шаблонов.
+Мы видим в данном файле одни и те же магические слова `{% raw %}{% block title %}{% endraw %}` и `{% raw %}{% block body %}{% endraw %}`, которые работают не благодаря HTML или Python, а благодаря фреймворку Flask (функция `render_template`), строящий веб-страницы с помощью данных шаблонов.
 
 Форма в `index.html`:
 ```
+{% raw %}
 {% extends "layout.html" %}
 
 {% block title %}
@@ -831,8 +841,9 @@ Frosh IMs
     </form>
 </div>
 {% endblock %}
+{% endraw %}
 ```
-Здесь в `{% block body %}` гораздо больше HTML кода. У формы также есть `{{ url_for('register') }}` для ее атрибута `action`, вызывающая функцию маршрутизации `register` (регистрирования) в нашем приложении, тем самым избегая хардкодинга.
+Здесь в `{% raw %}{% block body %}{% endraw %}` гораздо больше HTML кода. У формы также есть `{{ url_for('register') }}` для ее атрибута `action`, вызывающая функцию маршрутизации `register` (регистрирования) в нашем приложении, тем самым избегая хардкодинга.
 
 Возвращаясь к нашему приложению, в часть где приводится маршрут `register` (регистрация),
 ```python
@@ -857,6 +868,7 @@ def register():
 
 Простой код HTML формы, а также шаблона корзины:
 ```
+{% raw %}
 {% extends "layout.html" %}
 
 {% block title %}
@@ -873,6 +885,7 @@ Cart
 {% endfor %}
 
 {% endblock %}
+{% endraw %}
 ```
 Обратите внимание, что мы можем вывести на экран каждый `item` (продукт) нашей переменной `cart` (корзины), используя цикл `for`. Мы имеем доступ к полям каждого объекта `item` (продукта), а именно к `quantity` (количеству) и к `name` (имени).
 

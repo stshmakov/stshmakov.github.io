@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Набор проблем 3: Game of Fifteen.
+title: Набор проблем 3. Game of Fifteen.
 ---
 
 # Набор Проблем 3. Game of Fifteen
