@@ -768,7 +768,7 @@ You are registered!  (Well, not really.)
 {% endblock %}
 ```
 И у `layout.html`:
-```html
+```
 <!DOCTYPE html>
 
 <html>
