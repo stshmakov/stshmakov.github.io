@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Host: http://cs50x.ru
