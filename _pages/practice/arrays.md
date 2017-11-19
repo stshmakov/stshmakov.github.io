@@ -148,7 +148,7 @@ Average: 5.00
 
 #define N 5
 
-int main(int argc, string argv[])
+int main(void)
 {
     // TODO
 }
