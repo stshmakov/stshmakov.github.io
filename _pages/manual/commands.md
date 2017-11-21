@@ -9,7 +9,7 @@ title: Команды CS50 IDE.
   <thead>
     <tr>
       <th scope="col">Команда</th>
-      <th scope="col">Описание</th>
+      <th scope="col" width="30%">Описание</th>
       <th scope="col">Пример</th>
     </tr>
   </thead>
