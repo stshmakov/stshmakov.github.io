@@ -11,7 +11,6 @@ title: Типы данных в Си.
         <th scope="col">Тип данных</th>
         <th scope="col">Использование</th>
         <th scope="col">Размер</th>
-        <th scope="col">Диапазон</th>
         <th scope="col">Функция из cs50.h</th>
     </tr>
     </thead>
