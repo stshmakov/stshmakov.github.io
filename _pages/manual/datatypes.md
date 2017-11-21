@@ -17,7 +17,7 @@ title: Типы данных в Си.
     <tbody>
     <tr>
         <td><code>int</code></td>
-        <td>Целочисленные переменные, счетчики</td>
+        <td>Целочисленные переменные, счетчики.</td>
         <td>4 байта (32 бита)</td>
         <td><code>get_int("Prompt: ");</code></td>
     </tr>
@@ -53,7 +53,7 @@ title: Типы данных в Си.
     </tr>
     <tr>
         <td><code>bool</code></td>
-        <td>Правда или ложь (true или false)</td>
+        <td>Правда или ложь (true или false).</td>
         <td>1 байт (8 бит)</td>
         <td></td>
     </tr>
