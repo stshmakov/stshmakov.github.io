@@ -59,6 +59,7 @@ title: Программа курса CS50
 ## #8 Python
 #### HTML. CSS. Python.
 ### [Конспект лекции]({{ "/notes/8/lecture8.html" | relative_url }})
+### [Набор проблем 6]({{ "/psets/pset6.html" | relative_url }})
 
 ***
 
