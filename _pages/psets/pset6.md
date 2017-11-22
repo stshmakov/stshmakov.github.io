@@ -27,7 +27,7 @@ cd ~/workspace/pset6/
 
 2. Имплементируйте любую (одну) программу, используя Python:
 
-    * Напишите код [Caesar]({{ "/problems/hello/" | relative_url }}) в файле `caesar.py`, который будет находиться в папке `pset6/`.
+    * Напишите код [Caesar]({{ "/problems/caesar/" | relative_url }}) в файле `caesar.py`, который будет находиться в папке `pset6/`.
 
     * Напишите код [Vigenère]({{ "/problems/vigenere/" | relative_url }}) в файле `vigenere.py`, который будет находиться в папке `pset6/`.
 
