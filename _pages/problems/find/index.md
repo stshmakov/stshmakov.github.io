@@ -160,7 +160,7 @@ void sort(int values[], int n);
 bool search(int value, int values[], int n);
 ```
 
-### sort
+### `sort`
 
 Ваша программа должна сортировать числа массива, переданные ей, начиная от меньшего и заканчивая наибольшим.
 
