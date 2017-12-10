@@ -22,5 +22,5 @@ description: Практические задачи по языку Си.
 #### [Массивы]({{ "/practice/arrays.html" | relative_url }})
 
 ### Управление памятью
-#### [Память]({{ "/practice/memory.html" | relative_url }})
+#### [Динамическое распределение памяти]({{ "/practice/memory.html" | relative_url }})
 #### [Указатели]({{ "/practice/pointers.html" | relative_url }})
