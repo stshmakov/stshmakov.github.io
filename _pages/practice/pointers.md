@@ -95,7 +95,7 @@ Substring: appy cat
 #include <cs50.h>
 #include <string.h>
 
-char* my_strchr(char* str, char c)
+char *my_strchr(char *str, char c)
 {
    // TODO
 }
@@ -103,11 +103,11 @@ char* my_strchr(char* str, char c)
 int main(void)
 {
     printf("String: ");
-    char* str = get_string();
+    char *str = get_string();
     printf("Character: ");
     char c = get_char();
     printf("Looking for substring...\n");
-    char* result = my_strchr(str, c);
+    char *result = my_strchr(str, c);
     if (result == NULL)
     {
         printf("Couldn't find %c.\n", c);
@@ -124,7 +124,7 @@ int main(void)
 ## Перестановка
 
 ### Задача
-Внедрить функцию перестановки с прототипом `void swap (int * a, int * b)`, который меняет значения с помощью указателей.
+Внедрить функцию перестановки с прототипом `void swap (int *a, int *b)`, который меняет значения с помощью указателей.
 
 Пример:
 ```
@@ -142,7 +142,7 @@ y is 1
 #include <cs50.h>
 #include <stdio.h>
 
-void swap(int* a, int* b);
+void swap(int *a, int *b);
 
 int main(void)
 {
@@ -160,7 +160,7 @@ int main(void)
 
 }
 
-void swap(int* a, int* b)
+void swap(int *a, int *b)
 {
     // TODO
 }
