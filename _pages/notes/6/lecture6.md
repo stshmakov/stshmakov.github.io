@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Си. Лекция 6. HTTP.
+title: Лекция 6. HTTP.
 description: TCP/IP. HTTP.
 ---
 # Лекция 6. HTTP.

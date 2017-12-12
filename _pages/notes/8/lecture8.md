@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Си. Лекция 8. Python.
+title: Лекция 8. Python.
 description: HTML. CSS. Python.
 ---
-# Лекция 6. Python.
+# Лекция 8. Python.
 
 ## Введение в Python
 

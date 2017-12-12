@@ -65,6 +65,7 @@ title: Программа курса CS50
 
 ## #9 SQL
 #### MVC. SQL.
+### [Конспект лекции]({{ "/notes/9/lecture9.html" | relative_url }})
 
 ***
 
