@@ -114,7 +114,7 @@ title: Си. Проверка знаний.
 
     int main(void)
     {
-        int n = GetInt();
+        int n = get_int();
 
         switch (n)
         {
@@ -141,7 +141,7 @@ title: Си. Проверка знаний.
 
     int main(void)
     {
-        int n = GetInt();
+        int n = get_int();
     ```
 
 12. (4 балла). В начале World 3-7 в Super Mario Brothers 3 от Nintendo, Mario встречает сетку из кирпичей, 5 кирпичей в ширину на 3 кирпича в высоту, внутри которой жизнь! Ниже приведена скриншот.
