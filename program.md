@@ -33,7 +33,7 @@ title: Программа курса CS50 для средних школ.
 <table class="table table-striped">
     <thead>
     <tr>
-        <th scope="col">Глава</th>
+        <th scope="col" width="20%">Глава</th>
         <th scope="col"></th>
         <th scope="col">Темы</th>
         <th scope="col">Сроки</th>
