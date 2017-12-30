@@ -7,9 +7,8 @@ title: Си. Массивы.
 
 ## Теория
 
-<div width="50%" height="50%">
-<script async class="speakerdeck-embed" data-id="7a4a6c7a676b4d309cd9ab42bea1b1cf" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-</div>
+<blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://speakerdeck.com/stshmakov/cs50-si-massivy">CS50. Си. Массивы.</a></h4><p>Массивы представляют собой фундаментальную структуру данных, и они чрезвычайно полезны. Мы используем массивы для хранения значений одного и того же типа в смежных ячейках памяти. В частности, использование массивов позволяет нам создавать "группы" или "кластеры" переменных без необходимости указывать уникальное имя переменной для каждого, но все же позволяя нам индивидуально индексировать элементы массива.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 ## Обратный отсчет
 
