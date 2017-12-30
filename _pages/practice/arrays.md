@@ -7,26 +7,7 @@ title: Си. Массивы.
 
 ## Теория
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="card mb-3">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
-    </div>
-  </div>
-</div>
+<script async class="speakerdeck-embed" data-id="7a4a6c7a676b4d309cd9ab42bea1b1cf" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Обратный отсчет
 
