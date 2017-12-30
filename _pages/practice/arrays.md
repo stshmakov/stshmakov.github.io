@@ -7,7 +7,9 @@ title: Си. Массивы.
 
 ## Теория
 
+<div width="50%" height="50%">
 <script async class="speakerdeck-embed" data-id="7a4a6c7a676b4d309cd9ab42bea1b1cf" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
 
 ## Обратный отсчет
 
