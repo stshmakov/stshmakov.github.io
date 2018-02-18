@@ -57,4 +57,4 @@ history
 * Реализовать [Hello]({{ "/problems/hello/" | relative_url }})
 * Реализовать [Water]({{ "/problems/water/" | relative_url }})
 * Реализовать [Mario]({{ "/problems/mario/" | relative_url }})
-* Реализовать [Greedy]({{ "/problems/greedy/" | relative_url }})
+* Реализовать [Cash]({{ "/problems/greedy/" | relative_url }})
