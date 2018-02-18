@@ -111,8 +111,19 @@ Usage: ./caesar k
 
 ## Проверка
 ```
-check50 cs50/2017/x/caesar
+check50 cs50/2018/x/caesar
 ```
+
+## Стиль
+```
+style50 caesar.c
+```
+
+## Закачать
+```
+submit50 check50 cs50/2018/x/caesar
+```
+
 Вас потребуют ввести логин (**GitHub username**) и пароль (**GitHub password**) от вашей учетной записи на Github'е, которую вы можете завести, пройдя по данной ссылке [https://github.com/join](https://github.com/join).
 
 Зайдите на сайт [cs50.me](https://cs50.me/), используя всё ту же учетную запись GitHub'а и нажмите на зеленую кнопку **authorize submit50** (Это действие производится только один раз).

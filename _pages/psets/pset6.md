@@ -23,7 +23,7 @@ cd ~/workspace/pset6/
 
     * Напишите код [Mario]({{ "/problems/mario/" | relative_url }}) в файле `mario.py`, который будет находиться в папке `pset6/`.
 
-    * Напишите код [Greedy]({{ "/problems/greedy/" | relative_url }}) в файле `greedy.py`, который будет находиться в папке `pset6/`.
+    * Напишите код [Cash]({{ "/problems/greedy/" | relative_url }}) в файле `cash.py`, который будет находиться в папке `pset6/`.
 
 2. Имплементируйте любую (одну) программу, используя Python:
 
@@ -33,7 +33,32 @@ cd ~/workspace/pset6/
 
 Имплементируйте Sentiments (Настроения) в папке `pset6/sentiments/`.
 
-Никакого `check50`!
+## Проверка
+```
+check50 cs50/2018/x/sentimental/hello
+check50 cs50/2018/x/sentimental/mario/less
+check50 cs50/2018/x/sentimental/cash
+check50 cs50/2018/x/sentimental/caesar
+check50 cs50/2018/x/sentimental/vigenere
+```
+
+## Стиль
+```
+style50 hello.py
+style50 mario.py
+style50 cash.py
+style50 caesar.py
+style50 vigenere.py
+```
+
+## Закачать
+```
+submit50 cs50/2018/x/sentimental/hello
+submit50 cs50/2018/x/sentimental/mario/less
+submit50 cs50/2018/x/sentimental/cash
+submit50 cs50/2018/x/sentimental/caesar
+submit50 cs50/2018/x/sentimental/vigenere
+```
 
 ## Подсказки
 Обязательно используйте Python 3, а не Python 2.

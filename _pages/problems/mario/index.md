@@ -76,10 +76,22 @@ Height: 4
  ####
 #####
 ```
+
 ## Проверка
 ```
-check50 cs50/2017/x/mario/less
+check50 cs50/2018/x/mario/less
 ```
+
+## Стиль
+```
+style50 mario.c
+```
+
+## Закачать
+```
+submit50 cs50/2018/x/mario/less
+```
+
 Вас потребуют ввести логин (**GitHub username**) и пароль (**GitHub password**) от вашей учетной записи на Github'е, которую вы можете завести, пройдя по данной ссылке [https://github.com/join](https://github.com/join).
 
 Зайдите на сайт [cs50.me](https://cs50.me/), используя всё ту же учетную запись GitHub'а и нажмите на зеленую кнопку **authorize submit50** (Это действие производится только один раз).

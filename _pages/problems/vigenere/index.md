@@ -109,7 +109,17 @@ ciphertext: Negh zf av huf pcfx bt gzrwep oz
 
 ## Проверка
 ```
-check50 cs50/2017/x/vigenere
+check50 cs50/2018/x/vigenere
+```
+
+## Стиль
+```
+style50 vigenere.c
+```
+
+## Закачать
+```
+submit50 cs50/2018/x/vigenere
 ```
 
 Вас потребуют ввести логин (**GitHub username**) и пароль (**GitHub password**) от вашей учетной записи на Github'е, которую вы можете завести, пройдя по данной ссылке [https://github.com/join](https://github.com/join).
